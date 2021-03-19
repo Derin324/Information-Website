@@ -1,0 +1,157 @@
+body {
+    width: 98%;
+    height: 2300px;
+    border: 5px solid rgba(7, 92, 11, 0.699);
+    margin-top: 0px;
+    padding-top: 45px;
+    background-image:url('Free-Abstract-Background.jpg');
+  }
+  .section1 {
+    width: 50%;
+    height: 98%;
+    border: 10px red;
+    border-radius: 3px;
+    display: inline;
+  }
+  .section2 {
+    width: 50%;
+    height: 100%;
+    border: 10px red;
+    border-radius: 3px;
+    display: inline;
+  }
+  .col1 {
+    width: auto;
+    border: 5x rgb(1, 7, 1);
+    padding: 0px;
+    margin: 10px;
+    float: left;
+  }
+  .col2 {
+    width: auto;
+    border: 0px rgb(1, 7, 1);
+    padding: 0px;
+    margin: 10px;
+    float: left;
+  }
+  .col3 {
+  width: auto;
+  min-height:fit-content;
+  border: 0px solid rgb(1, 7, 1);
+  padding: 0px;
+  margin: 10px;
+  float: left;
+  }
+ul#menu li {
+  list-style-type: none;
+}
+a:link {
+  color: rgb(2, 105, 2);
+}
+a:visited {
+  color: rgb(2, 105, 2);
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f01414;
+}
+
+.button1:hover {
+  background-color: #f01414;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #12ec54;
+}
+
+.button2:hover {
+  background-color: #12ec54;
+  color: white;
+}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #5645f1;
+  border-radius: 7mm;
+}
+.button3:hover {
+  background-color: #5645f1;
+  color: white;
+}
+.button4 {
+  background-color: #2ae286; /* Green */
+  border: 0.1mm;
+  border-radius: 2mm;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 0.5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #28fc14;
+}
+.button5:hover {
+  background-color: #28fc14;
+  color: white;
+}
+.clickcol1 {
+  margin-top: 50px;
+}
+.clickcol2 {
+  margin-top: 50px;
+}
+.clickcol3 {
+  margin-top: 50px;
+}
+.navigation {
+  overflow: hidden;
+  background-color: rgba(3, 68, 6, 0.699);
+  position: fixed;
+  top: 5px;
+  width: 97.9%;
+}
+.navigation a {
+  float: left;
+  display: block;
+  color: #a0f195;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  background: rgb(33, 192, 118);
+  color: black;
+}
